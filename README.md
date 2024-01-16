@@ -5,6 +5,13 @@ This project aims to demonstrate compliance with the Application Security Verifi
 
 We've extended our previous project, the DETI Memorabilia Online Shop (Project 1), to align with specific ASVS Level 1 security requirements. This README provides an overview of our assessment, the modifications made to meet ASVS criteria, key insights, and integration decisions for additional software features.
 
+## Contributors
+
+- [Diogo Falcao](https://github.com/falcaodiogo)
+- [João Carlos](https://github.com/JotaCLS)
+- [Matilde Teixeira](https://github.com/matildetex)
+- [Bernardo Pinto](https://github.com/beernardoc)
+
 ## ASVS Compliance Measures Implemented
 The following ASVS Level 1 security requirements have been addressed in this project:
 
