@@ -1,0 +1,22 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:8.0.34
+    environment:
+      MYSQL_ROOT_PASSWORD: Root.
+      MYSQL_DATABASE: shopping-cart
+    volumes:
+      - ./databases/mysql_query.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "3306:3306"
+  tomcat:
+    image: tomcat:8.5.94
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./target/shopping-cart-0.0.1-SNAPSHOT.war:/usr/local/tomcat/webapps/shopping-cart.war
+    depends_on:
+      - mysql
+    command: catalina.sh run
+
+
