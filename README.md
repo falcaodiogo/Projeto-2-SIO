@@ -12,6 +12,10 @@ We've extended our previous project, the DETI Memorabilia Online Shop (Project 1
 - [Matilde Teixeira](https://github.com/matildetex)
 - [Bernardo Pinto](https://github.com/beernardoc)
 
+## Grade
+
+12.89
+
 ## ASVS Compliance Measures Implemented
 The following ASVS Level 1 security requirements have been addressed in this project:
 
